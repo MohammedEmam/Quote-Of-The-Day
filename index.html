@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="vh-100">
+  <div class="container d-flex align-items-center justify-content-center flex-column h-100 w-100">
+    <h1 class="fa-lg-4x my-3">Quote of the Day</h1>
+    <p>Press the button below to recieve a random quote!</p>
+    <button onclick="quotePress ()" class="btn btn-outline-info btn-lg">New Quote</button>
+    <div class=" w-100  d-flex align-items-center justify-content-center flex-column text-center">
+      <div id="quote-image" class="quote-image d-flex align-items-center justify-content-center overflow-hidden my-3">
+    </div>
+      <p class="quote lead w-75" id="quote"></p>
+      <h4 class="writer text-center" id="writer"></h4>
+    </div>
+
+  </div>
+</header>
+
+
+  
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
